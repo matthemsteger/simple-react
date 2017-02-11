@@ -1,0 +1,31 @@
+.container {
+	composes: container from 'bulma';
+}
+
+.section {
+	composes: section from 'bulma';
+	background-color: transparent;
+}
+
+.heading {
+	composes: heading from 'bulma';
+	background-color: #ffffff;
+}
+
+.title {
+	composes: title from 'bulma';
+}
+
+.subtitle {
+	composes: subtitle from 'bulma';
+}
+
+.content {
+	composes: content from 'bulma';
+}
+
+@media screen and (max-width: 1024px) {
+	.main-image {
+		display: none;
+	}
+}

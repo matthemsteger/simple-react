@@ -1,0 +1,27 @@
+.nav {
+	composes: nav from 'bulma';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.nav-toggle {
+	composes: nav-toggle from 'bulma';
+}
+
+.nav-right {
+	composes: nav-right from 'bulma';
+}
+
+.nav-menu {
+	composes: nav-menu from 'bulma';
+}
+
+.nav-item {
+	composes: nav-item from 'bulma';
+}
+
+.is-active {
+	composes: is-active from 'bulma';
+}
